@@ -16,19 +16,39 @@
 
 # 环境安装
 
-> pip install -e ".[notebooks]"
+```sh
+pip install -e ".[notebooks]"
+```
+
+
 
 # 一阶段微调
-> python training/train.py \
->     -c configs/sam2.1_training/sam2.1_hiera_b+_tzb_finetune.yaml \
->     --use-cluster 0 \
->     --num-gpus 8
+```sh
+python training/train.py \
+ -c configs/sam2.1_training/sam2.1_hiera_b+_tzb_finetune.yaml \
+ --use-cluster 0 \
+ --num-gpus 8
+```
+
+
 
 # 二阶段微调
-> python training/train.py \
->     -c configs/sam2.1_training/sam2.1_hiera_b+_with_finetune_AntiUAV.yaml.yaml \
->     --use-cluster 0 \
->     --num-gpus 8
+```sh
+python training/train.py \
+ -c configs/sam2.1_training/sam2.1_hiera_b+_with_finetune_AntiUAV.yaml.yaml \
+ --use-cluster 0 \
+ --num-gpus 8
+```
+
+
 
 # 模型预测
 在`notebook/run.ipynb`中进行配置和测试
+
+
+
+
+
+
+
+本仓库基于`SAM2`的研究工作
