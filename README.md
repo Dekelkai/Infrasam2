@@ -1,18 +1,30 @@
 # 数据集和模型权重
 
-验证数据，下载数据集解压到`Infrasam2\notebooks\tzb_data\val` 中： https://pan.baidu.com/s/1rNvtDVKeSClj8Y_cZm-Sgg?pwd=x275 提取码: x275 
+> 1、验证数据
+>
+> 下载数据集解压到`Infrasam2\notebooks\tzb_data\val` 中：
+>
+>  https://pan.baidu.com/s/1rNvtDVKeSClj8Y_cZm-Sgg?pwd=x275
 
-微调数据（1）：`finetuning-data_val1_train.zip` 链接: https://pan.baidu.com/s/1Ij8DIfGBsWNr7q2gSPWTvA?pwd=grx7 提取码: grx7 
+> 2、微调数据
+>
+> （1）：`finetuning-data_val1_train.zip` 链接: https://pan.baidu.com/s/1Ij8DIfGBsWNr7q2gSPWTvA?pwd=grx7 
+>
+> （2）：`AntiUAV-train-finetune.zip` 链接: https://pan.baidu.com/s/1XBqfnMS0ro2R27LBl4imuA?pwd=u5dp
 
-微调数据（2）：`AntiUAV-train-finetune.zip` 链接: https://pan.baidu.com/s/1XBqfnMS0ro2R27LBl4imuA?pwd=u5dp 提取码: u5dp 
 
 
 
-模型权重放在`sam2_logs/configs/*/checkpoints/`中
 
-`AntiAUVdata_checkpoint.py`：链接: https://pan.baidu.com/s/1mR7KEC1HxKfBny81RMP-sQ?pwd=wgtt 提取码: wgtt 
+> 3、模型权重
+>
+> 下载放在`sam2_logs/configs/*/checkpoints/`中：
+>
+> `AntiAUVdata_checkpoint.pt`：链接: https://pan.baidu.com/s/1mR7KEC1HxKfBny81RMP-sQ?pwd=wgtt 
+>
+> `tzb_data_checkpoint.pt`：链接: https://pan.baidu.com/s/1iQTK6MO3WYmWTrI2SUtoJQ?pwd=5jaa 
 
-`tzb_data_checkpoint.pt`：链接: https://pan.baidu.com/s/1iQTK6MO3WYmWTrI2SUtoJQ?pwd=5jaa 提取码: 5jaa 
+
 
 # 环境安装
 
